@@ -1,6 +1,6 @@
-# Email Humanizer - LangChain Single Agent Project
+# Social Media Post generator - LangChain Single Agent Project
 
-A beginner-friendly project that teaches you how to build a **single agent** using **LangChain + OpenAI**. The agent takes a brief email idea and generates a natural, human-sounding email.
+A beginner-friendly project that teaches you how to build a **single agent** using **LangChain + OpenAI**. The agent takes a content and generates a announcement for scoial media post.
 
 ## What You'll Learn
 
@@ -16,19 +16,19 @@ A beginner-friendly project that teaches you how to build a **single agent** usi
 User's email idea
        |
        v
-  [Agent thinks: "I need to draft an email first"]
+  [Agent thinks: "I need to write a formal announcement"]
        |
        v
-  [Tool: draft_email] --> creates a formal, structured email
+  [Tool: draft_email] --> creates a fromal announcement
        |
        v
-  [Agent thinks: "Now I should humanize this draft"]
+  [Agent thinks: "Now I should make it engaging social media post"]
        |
        v
-  [Tool: humanize_email] --> rewrites it to sound natural and warm
+  [Tool: humanize_email] --> rewrite the announcement as an engaging social media post
        |
        v
-  Final humanized email returned to user
+  Final post returned to user
 ```
 
 ## Prerequisites
